@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 import { MdExpandMore } from "react-icons/md";
+import Fade from "react-reveal/Fade";
 
 import "./Item.css";
 
@@ -25,17 +26,25 @@ const Item = ({
     >
       <div className="item__container">
         <div className="item__text">
-          <p>{title}</p>
-          <div className="item__description">
-            <p>{desc}</p>
-          </div>
+          <Fade bottom>
+            <h1>{title}</h1>
+            <Fade bottom>
+              <p>{desc}</p>
+            </Fade>
+          </Fade>
         </div>
         <div className="item__lowerThird">
           <div className="item__buttons">
-            <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
-            {twoButtons && (
-              <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
-            )}
+            <Fade bottom>
+              <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
+              {twoButtons && (
+                <Button
+                  imp="secondary"
+                  text={rightBtnTxt}
+                  link={rightBtnLink}
+                />
+              )}
+            </Fade>
           </div>
           {first && (
             <div className="item__expand">
