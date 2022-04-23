@@ -20,9 +20,9 @@ const Home = () => {
         descLink=""
         backgroundImg={Model3}
         leftBtnTxt="ORDER NOW"
-        leftBtnLink=""
+        leftBtnLink="https://www.tesla.com/model3/design#overview"
         rightBtnTxt="LEARN MORE"
-        rightBtnLink=""
+        rightBtnLink="https://www.tesla.com/model3"
         twoButtons="true"
         first
       />
@@ -32,9 +32,9 @@ const Home = () => {
         descLink=""
         backgroundImg={ModelY}
         leftBtnTxt="ORDER NOW"
-        leftBtnLink=""
+        leftBtnLink="https://www.tesla.com/modely/design#overview"
         rightBtnTxt="LEARN MORE"
-        rightBtnLink=""
+        rightBtnLink="https://www.tesla.com/modely"
         twoButtons="true"
       />
       <Item
@@ -43,9 +43,9 @@ const Home = () => {
         descLink=""
         backgroundImg={ModelS}
         leftBtnTxt="ORDER NOW"
-        leftBtnLink=""
+        leftBtnLink="https://www.tesla.com/models/design#overview"
         rightBtnTxt="LEARN MORE"
-        rightBtnLink=""
+        rightBtnLink="https://www.tesla.com/models"
         twoButtons="true"
       />
       <Item
@@ -54,9 +54,9 @@ const Home = () => {
         descLink=""
         backgroundImg={ModelX}
         leftBtnTxt="ORDER NOW"
-        leftBtnLink=""
+        leftBtnLink="https://www.tesla.com/modelx/design#overview"
         rightBtnTxt="LEARN MORE"
-        rightBtnLink=""
+        rightBtnLink="https://www.tesla.com/modelx"
         twoButtons="true"
       />
       <Item
@@ -65,9 +65,9 @@ const Home = () => {
         descLink=""
         backgroundImg={SolarPanels}
         leftBtnTxt="ORDER NOW"
-        leftBtnLink=""
+        leftBtnLink="https://www.tesla.com/energy/design"
         rightBtnTxt="LEARN MORE"
-        rightBtnLink=""
+        rightBtnLink="https://www.tesla.com/solarpanels"
         twoButtons="true"
       />
       <Item
@@ -76,9 +76,9 @@ const Home = () => {
         descLink=""
         backgroundImg={SolarRoof}
         leftBtnTxt="ORDER NOW"
-        leftBtnLink=""
+        leftBtnLink="https://www.tesla.com/energy/design"
         rightBtnTxt="LEARN MORE"
-        rightBtnLink=""
+        rightBtnLink="https://www.tesla.com/solarroof"
         twoButtons="true"
       />
       <Item
@@ -86,10 +86,8 @@ const Home = () => {
         desc=""
         descLink=""
         backgroundImg={Accessories}
-        leftBtnTxt="ORDER NOW"
-        leftBtnLink=""
-        rightBtnTxt="LEARN MORE"
-        rightBtnLink=""
+        leftBtnTxt="SHOP NOW"
+        leftBtnLink="https://shop.tesla.com/?tesref=true"
         twoButtons="false"
       />
     </div>

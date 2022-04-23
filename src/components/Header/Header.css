@@ -28,14 +28,6 @@
   display: flex;
 }
 
-/* .header__center-links li {
-  padding: 4px 8px;
-}
-
-.header__center-links li:hover {
-  background-color: #171a20;
-} */
-
 .header__center-links a {
   margin: 10px;
   text-decoration: none;
@@ -52,7 +44,6 @@
 .header__right {
   display: flex;
   justify-content: flex-end;
-  text-transform: uppercase;
   margin-right: 32px;
 }
 
@@ -67,4 +58,10 @@
 
 .header__right a:hover {
   background-color: rgba(23, 26, 32, 0.1);
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    display: none;
+  }
 }

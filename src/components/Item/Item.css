@@ -25,7 +25,7 @@
 
 .item__text h1 {
   font-size: 34px;
-  color: #393c41;
+  color: #171a20;
 }
 
 .item__text p {
@@ -54,4 +54,52 @@
   width: 40px;
   height: 40px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .item__text {
+    margin-top: 15rem;
+  }
+
+  .item__text h1 {
+    font-size: 32px;
+  }
+
+  .item__text p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .item__buttons {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .item {
+    background-size: cover;
+    height: 75vh;
+  }
+
+  .item__container {
+    width: 80vw;
+  }
+
+  .item__text {
+    margin-top: 7rem;
+  }
+
+  .item__text h1 {
+    font-size: 32px;
+  }
+
+  .item__text p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .item__buttons {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
 }
